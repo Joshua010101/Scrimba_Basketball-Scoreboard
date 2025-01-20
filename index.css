@@ -43,16 +43,11 @@ main {
     gap: 5px;
 }
 
-.team-name {
+.team-name1, .team-name2 {
     margin: 0;
-    display: none;
 }
 
-.team-name.visible {
-    display: visible;
-}
-
-.team-name-header input.hidden {
+#team-1, #team-2 {
     display: none;
 }
 
