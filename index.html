@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Basketball Scoreboard</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="team-1">
+                <div class="team-name-header">
+                    <p class="team-name">1</p>
+                    <input type="text" id="team-1" name="team-1">
+                    <span class="teamname-btn">?</span>
+                </div>
+                <span id="team-1-score">0</span>
+                <div class="score-changer">
+                    <button id="add-1" onclick="add1Team1()">+1</button>
+                    <button id="add-2" onclick="add2Team1()">+2</button>
+                    <button id="add-3" onclick="add3Team1()">+3</button>
+                </div>
+            </div>
+            <div class="team-2">
+                <div class="team-name-header">
+                    <p class="team-name">2</p>
+                    <input type="text" id="team-2" name="team-2">
+                    <span class="teamname-btn">?</span>
+                </div>
+                <span id="team-2-score">0</span>
+                <div class="score-changer">
+                    <button id="add-1" onclick="add1Team2()">+1</button>
+                    <button id="add-2" onclick="add2Team2()">+2</button>
+                    <button id="add-3" onclick="add3Team2()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+    </main>
+</body>
+</html>
